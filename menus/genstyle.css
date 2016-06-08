@@ -1,0 +1,44 @@
+#outerborder {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -200px;
+    background-color: black;
+    background-image: url("images/outerborder.jpg");
+}
+
+#innerborder {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    top: 25px;
+    left: 25px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.title {
+    position: absolute;
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 9px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border: 2px black solid;
+    background-color: #5C1E04;
+    color: white;
+}
