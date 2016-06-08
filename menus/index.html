@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spirits of Vengeance</title>
+        <link rel="stylesheet" type="text/css" href="genstyle.css">
+        <script type="text/javascript" src="Authenticate.js"></script>
+        <style type="text/css">
+            #login {
+                top: 70px;
+            }
+            #register {
+                top: 210px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="outerborder">
+            <div id="innerborder">
+                <div class="title">Spirits of Vengeance</div>
+                <form id="login" action="login(username, password);">
+                    <label>Login</label>
+                    <br>
+                    <input type="text" name="username" value="username"></input>
+                    <br>
+                    <input type="password" name="password" value="password"></input>
+                    <br>
+                    <input type="submit" value="Login"></input>
+                </form>
+                <form id="register" action="register(username, password);">
+                    <label>Or Register</label>
+                    <br>
+                    <input type="text" name="username" value="choose a username"></input>
+                    <br>
+                    <input type="password" name="password" value="choose a password"></input>
+                    <br>
+                    <input type="submit" value="Register"></input>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
