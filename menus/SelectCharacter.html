@@ -3,7 +3,7 @@
     <head>
         <title>Select Character</title>
         <link rel="stylesheet" type="text/css" href="genstyle.css">
-        <script type="text/javascript" href="SelectCharacter.js"></script>
+        <script type="text/javascript" src="SelectCharacter.js"></script>
         <style type="text/css">
             #angel {
                 top: 70px;
@@ -23,10 +23,10 @@
         <div id="outerborder">
             <div id="innerborder">
                 <div class="title">Choose your race, Summoner</div>
-                <div class="button" id="angel">Angel</div>
-                <div class="button" id="ghoul">Ghoul</div>
-                <div class="button" id="human">Human</div>
-                <div class="button" id="demon">Demon</div>
+                <div class="button" id="angel" onclick="SelectCharacter('angel');">Angel</div>
+                <div class="button" id="ghoul" onclick="SelectCharacter('ghoul');">Ghoul</div>
+                <div class="button" id="human" onclick="SelectCharacter('human');">Human</div>
+                <div class="button" id="demon" onclick="SelectCharacter('demon');">Demon</div>
             </div>
         </div>
     </body>

@@ -42,3 +42,7 @@
     background-color: #5C1E04;
     color: white;
 }
+
+.button:hover {
+    background-color: #C7450E;
+}
