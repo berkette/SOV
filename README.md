@@ -11,13 +11,15 @@ Install mongodb:
 ```pacman -S mongodb```
 
 Grab the repo:
-```git clone https://github.com/berkette/SOV.git .```
+```git clone https://github.com/berkette/SOV.git```
 
 Go there:
 ```cd SOV```
 
 Install the dependencies:
 ```npm install```
+
+Quick and dirty fix: in file `node_modules/bson/ext/index.js` change line 10 to `bson = require('bson')`
 
 Run the server:
 ```npm start```
