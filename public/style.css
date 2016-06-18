@@ -1,0 +1,104 @@
+html, body {
+    height:90%;
+}
+
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+   background-image:url(images/grass.jpg); 
+   background-size: 300px 300px;
+   
+   font-family:sans-serif;
+}
+
+/* General styles */
+
+body>div { /* all divs are menu popups */
+   width:400px;
+
+   padding:10px;
+   background-image:url(images/wood.jpg); 
+   background-size: 200px 200px;
+
+   color:#FFF;
+   font-size:20px;
+   text-align:center;
+   
+   border:2px solid #A50;
+   box-shadow:black 0px 0px 10px;
+}
+
+body>div>div {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+   
+    padding:10px;
+   
+    background:rgba(0,0,0,0.5);
+    color:#FFF;
+    border-radius:10px;
+}
+
+/* Specific styles */
+
+div.splash {
+    height:auto;
+    padding:10px 40px;
+    position:relative;
+}
+
+div.splash>h1 {
+    margin:10px 0px;
+}
+
+div.splash>.but-register, div.splash>.but-login  {
+    position:absolute;
+    bottom:-80px;
+    
+    width:42%;
+    
+    padding:5px 5px;
+   background-image:url(images/wood.jpg); 
+   background-size: 200px 200px;
+
+   border:2px solid #A50;
+   box-shadow:black 0px 0px 10px;
+
+    cursor:pointer;
+}
+
+div.splash>.but-register  {
+    left:2%;
+}
+
+div.splash>.but-login {
+    right:2%;
+}
+
+div.splash>.but-register>div, div.splash>.but-login>div  {
+    display:block;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    padding:10px;
+    border-radius:10px;
+    margin:0px;
+}
+
+
+div.splash>.but-register>div {
+    background:rgba(200,0,0,0.9);
+}
+
+div.splash>.but-login>div {
+    background:rgba(0,200,0,0.9);
+}
+
+div.splash>.but-register>div:hover {
+    background:rgba(255,0,0,0.9);
+}
+
+div.splash>.but-login>div:hover {
+    background:rgba(0,255,0,0.9);
+}
